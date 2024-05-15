@@ -45,7 +45,3 @@ try {
   console.log(error);
   process.exit(1);
 }
-
-app.listen(port, () => {
-  console.log(`server running on PORT ${port}....`);
-});
